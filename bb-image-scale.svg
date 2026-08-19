@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="26" fill="#17172a"/>
+  <rect x="18" y="18" width="92" height="92" rx="16" fill="none" stroke="#2d2d4e" stroke-width="4"/>
+  <!-- large frame shrinking into a small one -->
+  <rect x="26" y="26" width="58" height="58" rx="8" fill="none" stroke="#7c3aed" stroke-width="6"/>
+  <rect x="62" y="62" width="40" height="40" rx="6" fill="#7c3aed" fill-opacity="0.18"
+        stroke="#a78bfa" stroke-width="5"/>
+  <!-- diagonal scale arrow -->
+  <path d="M46 46 L84 84" stroke="#f1f5f9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M84 68 L84 84 L68 84" fill="none" stroke="#f1f5f9" stroke-width="6"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 62 L46 46 L62 46" fill="none" stroke="#f1f5f9" stroke-width="6"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

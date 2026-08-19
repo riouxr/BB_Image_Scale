@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=BB Image Scale
+GenericName=Image Resizer
+Comment=Drag and drop batch image resizer
+Exec=bb-image-scale %F
+Icon=bb-image-scale
+Terminal=false
+Categories=Graphics;2DGraphics;RasterGraphics;Utility;
+MimeType=image/png;image/jpeg;image/webp;image/tiff;image/bmp;image/gif;inode/directory;
+Keywords=resize;scale;image;batch;thumbnail;
+StartupWMClass=bb_image_scale.py

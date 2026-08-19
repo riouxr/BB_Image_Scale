@@ -1,0 +1,4 @@
+# This project runs on Linux — never let CRLF into the repo or a checkout,
+# a shell script with CRLF fails with "bad interpreter: /usr/bin/env bash^M".
+* text=auto eol=lf
+*.svg text eol=lf
