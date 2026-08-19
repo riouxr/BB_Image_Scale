@@ -29,10 +29,11 @@ Resampling uses **Lanczos**, the best-quality filter Pillow offers for downscali
 
 ## Install on Rocky 9
 
-Tk is not part of the base Python install on Rocky, so pull it in first:
+Tk is not part of the base Python install on Rocky, and a minimal install has
+no git either, so pull those in first:
 
 ```bash
-sudo dnf install -y python3 python3-tkinter
+sudo dnf install -y python3 python3-tkinter python3-pip git
 ```
 
 Then clone and run:
@@ -45,7 +46,9 @@ git clone https://github.com/riouxr/BB_Image_Scale.git
 cd BB_Image_Scale && ./run.sh
 ```
 
-`run.sh` creates a `.venv` on first launch, installs Pillow and tkinterdnd2 into it, and starts the app. Later launches skip straight to the app.
+`run.sh` creates a `.venv` on first launch, installs Pillow and tkinterdnd2 into it, and starts the app — so the first start needs an internet connection and takes a few seconds longer. Later launches skip straight to the app.
+
+If it stops with `Python is missing Tk support`, the `python3-tkinter` package above is what's missing.
 
 ---
 
